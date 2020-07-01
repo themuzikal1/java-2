@@ -1,16 +1,16 @@
 package burger_shop;
 
-public class Order extends burger_shop.Burger {
+public final class Order extends burger_shop.Burger {
     private String burger;
-    private String breadRollType;
-    private String meat;
-    private String meal;
-    private String toppings1Name;
-    private double toppings1Price;
+    private  String breadRollType;
+    private  String meat;
+    private  String meal;
+    private  String toppings1Name;
+    private  double toppings1Price;
     private String toppings2Name;
-    private double toppings2Price;
-    private String addSidesName;
-    private double addSidesPrice;
+    private  double toppings2Price;
+    private  String addSidesName;
+    private  double addSidesPrice;
     private String addBurgerName;
     private double addBurgerPrice;
 
@@ -69,11 +69,7 @@ public class Order extends burger_shop.Burger {
             hamburgerPrice += this.addSidesPrice;
             System.out.println("Added " + addSidesName + " for an extra " + this.addSidesPrice);
         }
-        if (this.toppings2Name != null) {
-            hamburgerPrice += this.toppings2Price;
-            System.out.println("Added " + toppings2Name + " for an extra " + this.toppings2Price);
 
-        }
         return hamburgerPrice;
     }
     public double addBurger() {

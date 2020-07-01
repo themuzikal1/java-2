@@ -1,6 +1,6 @@
 package burger_shop;
 
-public class Meal extends burger_shop.DeluxeBurger {
+public final class Meal extends burger_shop.DeluxeBurger {
     private String meal1Name;
     private double meal1Price;
     private String drink1Name;
@@ -16,8 +16,6 @@ public class Meal extends burger_shop.DeluxeBurger {
         this.side1Name = side1Name;
         this.side1Price = side1Price;
     }
-
-
     @Override
     public double itemizedHamburger() {
         double hamburgerPrice = super.itemizedHamburger();
@@ -31,6 +29,25 @@ public class Meal extends burger_shop.DeluxeBurger {
 
         }
         return hamburgerPrice;
+    }
+
+    public void addToppings1(String name, double price) {
+        System.out.println("Cannot add multiples of the same topping");
+    }
+
+
+    public void addToppings2(String name, double price) {
+        System.out.println("Cannot add multiples of the same topping");
+    }
+
+
+    public void addBurger(String name, double price) {
+        System.out.println("Cannot add multiples of the same burger");
+    }
+
+
+    public void setDrink1Name(String name, double price) {
+        System.out.println("Cannot add multiples of the same drink");
     }
 }
 

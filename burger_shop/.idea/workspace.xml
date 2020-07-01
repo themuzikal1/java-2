@@ -5,7 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Meat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Meal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/burger_shop/burger_shop/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -72,25 +83,29 @@
     </state>
     <state x="2694" y="266" key="#com.intellij.ide.util.MemberChooser/3840.110.1440.877/1920.23.1920.1057/0.23.1920.962@1920.23.1920.1057" timestamp="1593547352496" />
     <state x="2694" y="266" key="#com.intellij.ide.util.MemberChooser/3840.110.1440.877/1920.23.1920.1057/0.23.1920.969@1920.23.1920.1057" timestamp="1593542967858" />
-    <state width="1875" height="280" key="GridCell.Tab.0.bottom" timestamp="1593549049576">
+    <state width="1875" height="280" key="GridCell.Tab.0.bottom" timestamp="1593575791067">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1875" height="280" key="GridCell.Tab.0.bottom/3840.110.1440.877/1920.23.1920.1057/0.23.1920.962@1920.23.1920.1057" timestamp="1593549049576" />
+    <state width="1875" height="280" key="GridCell.Tab.0.bottom/3840.110.1440.877/1920.23.1920.1057/0.23.1920.965@1920.23.1920.1057" timestamp="1593575791067" />
     <state width="1875" height="280" key="GridCell.Tab.0.bottom/3840.110.1440.877/1920.23.1920.1057/0.23.1920.969@1920.23.1920.1057" timestamp="1593544885342" />
-    <state width="1875" height="280" key="GridCell.Tab.0.center" timestamp="1593549049575">
+    <state width="1875" height="280" key="GridCell.Tab.0.center" timestamp="1593575791066">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1875" height="280" key="GridCell.Tab.0.center/3840.110.1440.877/1920.23.1920.1057/0.23.1920.962@1920.23.1920.1057" timestamp="1593549049575" />
+    <state width="1875" height="280" key="GridCell.Tab.0.center/3840.110.1440.877/1920.23.1920.1057/0.23.1920.965@1920.23.1920.1057" timestamp="1593575791066" />
     <state width="1875" height="280" key="GridCell.Tab.0.center/3840.110.1440.877/1920.23.1920.1057/0.23.1920.969@1920.23.1920.1057" timestamp="1593544885341" />
-    <state width="1875" height="280" key="GridCell.Tab.0.left" timestamp="1593549049575">
+    <state width="1875" height="280" key="GridCell.Tab.0.left" timestamp="1593575791065">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1875" height="280" key="GridCell.Tab.0.left/3840.110.1440.877/1920.23.1920.1057/0.23.1920.962@1920.23.1920.1057" timestamp="1593549049575" />
+    <state width="1875" height="280" key="GridCell.Tab.0.left/3840.110.1440.877/1920.23.1920.1057/0.23.1920.965@1920.23.1920.1057" timestamp="1593575791065" />
     <state width="1875" height="280" key="GridCell.Tab.0.left/3840.110.1440.877/1920.23.1920.1057/0.23.1920.969@1920.23.1920.1057" timestamp="1593544885340" />
-    <state width="1875" height="280" key="GridCell.Tab.0.right" timestamp="1593549049576">
+    <state width="1875" height="280" key="GridCell.Tab.0.right" timestamp="1593575791066">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1875" height="280" key="GridCell.Tab.0.right/3840.110.1440.877/1920.23.1920.1057/0.23.1920.962@1920.23.1920.1057" timestamp="1593549049576" />
+    <state width="1875" height="280" key="GridCell.Tab.0.right/3840.110.1440.877/1920.23.1920.1057/0.23.1920.965@1920.23.1920.1057" timestamp="1593575791066" />
     <state width="1875" height="280" key="GridCell.Tab.0.right/3840.110.1440.877/1920.23.1920.1057/0.23.1920.969@1920.23.1920.1057" timestamp="1593544885342" />
     <state x="2546" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1593542808650">
       <screen x="1920" y="23" width="1920" height="1057" />
